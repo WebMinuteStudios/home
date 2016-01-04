@@ -1,0 +1,83 @@
+.full-size {
+    height: 100%;
+    width: 100%;
+}
+.fullheight {
+    height: 100%;
+}
+.fullwidth {
+    width: 100%;
+}
+
+/*.foreground, .background {*/
+    /*display: none;*/
+/*}*/
+
+
+.foreground {
+    position:absolute;
+    top: 0;
+}
+.foreground-content {
+    display: table;
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;
+    min-height: 800px;
+}
+
+.foreground-content .middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.foreground-content .inner > div{
+    float: right;
+}
+.logo-container {
+    margin-right: 75px;
+    margin-top: 140px;
+}
+.services-container {
+    width: 947px;
+    margin-top: 75px;
+}
+.background {
+    height: 100%;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    /*background-color: black;*/
+    overflow: hidden;
+    z-index: 1 !important;
+}
+#background-wallpaper {
+    height: 100%;
+    width: 100%;
+    /*background-image: url('../img/parallax1.png');*/
+    z-index: 1 !important;
+}
+#foreground-wallpaper {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/background-1980x1080.png');
+    z-index: 10 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.service {
+    width: 250px;
+    float: left;
+    margin: 0 25px;
+}
+
+.service i {
+    margin: 0 auto;
+    width: 25px;
+    display: block;
+}
+
+.service h3 {
+    text-align: center;
+}
