@@ -28,4 +28,10 @@ jQuery(function ($) {
         horizontalAlign: "center",
         verticalAlign: "center"
     });
+    /* ----------------------------------------------------------- */
+    /*  #slimScroll
+     /* ----------------------------------------------------------- */
+    $('.project-contents').slimScroll({
+        height: '974px'
+    });
 });
