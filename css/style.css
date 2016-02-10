@@ -231,3 +231,15 @@
     width:100%;
     display:inline-block
 }
+
+/**** Single Page : Portfolio ****/
+
+.section-portfolio img {
+    width: 90%;
+}
+
+.section-portfolio .row > div {
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
