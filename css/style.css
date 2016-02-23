@@ -35,8 +35,10 @@
     float: right;
 }
 .logo-container {
-    margin-top: 260px;
     text-align: center;
+}
+.logo-container img {
+    margin-top:250px;
 }
 .services-container {
     margin-top: 75px;
@@ -65,12 +67,9 @@
     background-repeat: no-repeat;
 }
 
-.service {
-    width: 250px;
-    float: left;
-    margin: 0 25px;
+.services {
+    margin-top:25px;
 }
-
 .service i {
     margin: 0 auto;
     width: 25px;
