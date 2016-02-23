@@ -35,11 +35,10 @@
     float: right;
 }
 .logo-container {
-    margin-right: 250px;
-    margin-top: 140px;
+    margin-top: 260px;
+    text-align: center;
 }
 .services-container {
-    width: 947px;
     margin-top: 75px;
 }
 .background {
