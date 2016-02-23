@@ -243,3 +243,14 @@
     max-width: 90%;
     text-align: center;
 }
+
+.project-attributes div {
+    margin: 0 auto;
+    height: 25px;
+    width: 140px;
+}
+.project-attributes div i {
+    float: left;
+    font-size: 17px;
+    margin: 0 10px;
+}
